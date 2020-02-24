@@ -9,11 +9,11 @@ $ pip install selenium
 ```
 2/ Download ChromeDriver from https://chromedriver.chromium.org/downloads
 
-3/ Change this ligne 
+3/ Change this ligne: 
 ```
 driver = webdriver.Chrome(r"C:\webdrivers\chromedriver.exe")
 ```
-with 
+with: 
 ```
 driver = webdriver.Chrome("<chromedriver.exe path>")
 ```
